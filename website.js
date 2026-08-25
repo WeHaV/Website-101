@@ -17,11 +17,11 @@ function decreaseCount() {
     updateCount(count);
 }
 
-function updateDupName(name) {
-    document.getElementById("duplicated").innerHTML = name;
+function updateDupName(nm) {
+    document.getElementById("duplicated").innerHTML = nm;
 }
 
 function changeName() {
-    name = document.getElementById("duplicated").value;
+    name = document.getElementById("changedName").value;
     updateDupName(name + name);
 }
